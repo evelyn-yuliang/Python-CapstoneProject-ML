@@ -8,13 +8,15 @@ The scope of this project is to build a machine learning or deep learning model 
 
 # Architecture
 The workflow of this project is as follows 
-![Image Of workflow](https://github.com/evelyn-yuliang/Python-CapstoneProject-ML/c2.png)
+
+![Image Of workflow](c2.png)
 
 # Method
 For the text preprocessing, the words are tokenized and stemmed and the stop words are removed. The next step is to use the transformer method to convert the text into a number. In this project, TFIDF(term frequency-inverse document frequency) was applied to give each word a score according to how common and relevant e a word is in the entire document.
 
 For the algorithms, this project has fed the data to several machine learning algorithms, and a deep learning algorithm to identify which algorithm performs better. In this project, we focus on improving the accuracy rate using LinearSVC(Linear Support Vector Classification) and TextCNN(Text Convolutional Neural Network). 
 
+![Image Of result for ML algorithms](c3.png)
 
 # Result
 
