@@ -9,7 +9,7 @@ The scope of this project is to build a machine learning or deep learning model 
 # Architecture
 The workflow of this project is as follows 
 
-![Image Of workflow](c2.png)
+![Image Of workflow](c2.JPG)
 
 # Method
 For the text preprocessing, the words are tokenized and stemmed and the stop words are removed. The next step is to use the transformer method to convert the text into a number. In this project, TFIDF(term frequency-inverse document frequency) was applied to give each word a score according to how common and relevant e a word is in the entire document.
